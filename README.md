@@ -1,25 +1,24 @@
-# 🚀 Welcome to Adhityan Arvind's Portfolio
+# 🚀 Welcome to Mrudula Reddy Atla's Portfolio
 
 ## ✨ Overview
 
-This is my personal portfolio website showcasing my professional journey, projects, and skills as a software developer. The site features a modern, responsive design with interactive elements and a clean, professional aesthetic.
+This is my personal portfolio website showcasing my professional journey, projects, and skills as a Data Professional.
 
-> "A Software Developer By Day And A Code Wizard By Night!"
+> "Making Sense Of Numbers So You Don't Have To!"
 
 ## 🛠️ Tech Stack
 
-- **HTML5** - Semantic markup
-- **SASS/SCSS** - For advanced styling with variables, mixins, and nested rules
-- **JavaScript (ES6+)** - For interactive elements and animations
-- **Webpack** - Module bundling and build optimization
-- **Canvas API** - For the interactive particle background
-- **Responsive Design** - Mobile-first approach that works on all devices
+- **Excel** 
+- **SQL** 
+- **Tableau** 
+- **Python** 
+- **R Programming** 
 
 ## 🔧 Setup & Installation
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/adhityan924/MyPortfolioWebsite.git
+   git clone https://github.com/MrudulaAtla/MyPortfolioWebsite.git
    cd MyPortfolioWebsite
    ```
 
@@ -55,17 +54,16 @@ This is my personal portfolio website showcasing my professional journey, projec
 - **Home** - Eye-catching introduction with animated background
 - **About** - Personal bio highlighting skills and interests
 - **Academic Portfolio** - Educational qualifications and achievements
-- **Projects** - Showcase of various software development projects
+- **Projects** - Showcase of various data projects
 - **Contact** - Multiple ways to get in touch
 
 ## 📱 Contact
 
-- **Email**: adhityan.arvind@gmail.com
-- **US Number**: +1 650 8800447
-- **India Number**: +91 8825758411
-- **LinkedIn**: [Adhityan Arvind](https://www.linkedin.com/in/adhityan-arvind/)
-- **GitHub**: [adhityan924](https://github.com/adhityan924)
-- **LeetCode**: [adhityanarvind](https://leetcode.com/u/adhityanarvind/)
+- **Email**: mrudulareddyatla@gmail.com
+- **US Number**: +1 831 2950711
+- **India Number**: +91 8971765795
+- **LinkedIn**: [Mrudula Reddy Atla](https://www.linkedin.com/in/mrudula-reddy-atla/)
+- **GitHub**: [MrudulaAtla](https://github.com/MrudulaAtla)
 
 ## 📄 License
 
@@ -73,4 +71,4 @@ This project is licensed under the ISC License.
 
 ---
 
-© 2025 Adhityan Arvind. All Rights Reserved.
+© 2026 Mrudula Reddy Atla. All Rights Reserved.

@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adhityan924/adhityan924.github.io.git"
+    "url": "git+https://github.com/MrudulaAtla/MrudulaAtla.github.io.git"
   },
   "keywords": [],
-  "author": "Adhityan Arvind",
+  "author": "Mrudula Reddy Atla",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adhityan924/adhityan924.github.io/issues"
+    "url": "https://github.com/MrudulaAtla/MrudulaAtla.github.io/issues"
   },
-  "homepage": "https://adhityan924.github.io",
+  "homepage": "https://MrudulaAtla.github.io",
   "devDependencies": {
     "css-loader": "^5.0.2",
     "eslint": "^7.19.0",
