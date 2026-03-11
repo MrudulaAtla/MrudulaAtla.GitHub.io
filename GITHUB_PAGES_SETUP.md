@@ -2,7 +2,7 @@
 
 Follow these steps to set up GitHub Pages for your repository:
 
-1. Go to your repository on GitHub (https://github.com/adhityan924/adhityan924.github.io)
+1. Go to your repository on GitHub (https://github.com/MrudulaAtla/MrudulaAtla.github.io)
 2. Click on "Settings"
 3. Click on "Pages" in the left sidebar
 4. Under "Source", select "Deploy from a branch"
@@ -23,4 +23,4 @@ Every time you want to update your site:
    ```
 4. Wait a few minutes for GitHub Pages to update
 
-Your site will be available at: https://adhityan924.github.io 
+Your site will be available at: https://MrudulaAtla.github.io 
