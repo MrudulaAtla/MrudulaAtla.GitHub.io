@@ -343,6 +343,12 @@
     color: $color-text;
     margin: 0;
   }
+
+  a {
+    color: $color-red;
+    text-decoration: underline;
+    pointer-events: all;
+    cursor: pointer;
   
   @media (max-width: 600px) {
     padding: 1.5rem;
