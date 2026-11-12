@@ -123,10 +123,12 @@ function navFadeInProjects(entries, observer) {
 
 let observerNav = new IntersectionObserver(navFadeIn, options);
 
+
 observerNav.observe(document.querySelector('#hero'));
 observerNav.observe(document.querySelector('#about'));
-observerNav.observe(document.querySelector('#experience'));
 observerNav.observe(document.querySelector('#contact'));
+
+
 
 let observerNavProjects = new IntersectionObserver(navFadeInProjects, options2);
 
@@ -148,7 +150,12 @@ observerNavProjects.observe(document.querySelector('#academics'));
 // form validation
 
 const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-document.querySelector('#form-submit').addEventListener('click', () => {
+
+const formSubmitButton = document.querySelector('#form-submit');
+
+if (formSubmitButton) {
+  formSubmitButton.addEventListener('click', () => {
+
   const unameInput = document.querySelector('.contact__form-name');
   const emailInput = document.querySelector('.contact__form-email');
   const msgInput = document.querySelector('.contact__form-message');
@@ -209,3 +216,4 @@ document.querySelector('#form-submit').addEventListener('click', () => {
     });
   }
 });
+}
