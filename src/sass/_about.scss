@@ -337,12 +337,18 @@
     border-color: $color-red;
   }
   
-  p {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    color: $color-text;
-    margin: 0;
+ 
+p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: $color-text;
+  margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
   }
+}
+
 
   a {
     color: $color-red;
@@ -356,6 +362,121 @@
     
     p {
       font-size: 1.4rem;
+    }
+  }
+}
+
+
+/* Professional Experience */
+
+.experience {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+
+  .section-heading {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.experience-card {
+  background-color: #262626;
+  border-left: 4px solid #ff4757;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+
+  &:nth-child(2) {
+    border-left-color: #4aa3f0;
+  }
+
+  &:nth-child(3) {
+    border-left-color: #aa78a8;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    h3 {
+      color: #ff4757;
+      font-size: 2.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    h4 {
+      color: #ffffff;
+      font-size: 1.9rem;
+      font-weight: 500;
+    }
+  }
+
+  &__date {
+    color: #dddddd;
+    font-size: 1.5rem;
+  }
+
+  &__location {
+    color: #aaaaaa;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  li {
+    color: #eeeeee;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  &__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    span {
+      background-color: rgba(255, 71, 87, 0.12);
+      color: #ff4757;
+      padding: 0.7rem 1.2rem;
+      border-radius: 6px;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 600px) {
+  .experience {
+    padding: 4rem 1.5rem;
+  }
+
+  .experience-card {
+    padding: 2rem;
+
+    &__header h3 {
+      font-size: 2rem;
+    }
+
+    li {
+      font-size: 1.5rem;
     }
   }
 }

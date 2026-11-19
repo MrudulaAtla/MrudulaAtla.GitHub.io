@@ -126,6 +126,7 @@ let observerNav = new IntersectionObserver(navFadeIn, options);
 
 observerNav.observe(document.querySelector('#hero'));
 observerNav.observe(document.querySelector('#about'));
+observerNav.observe(document.querySelector('#experience'));
 observerNav.observe(document.querySelector('#contact'));
 
 
